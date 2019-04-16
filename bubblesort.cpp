@@ -25,13 +25,7 @@ void printArray(int arr[], int size)
 }
 int main()
 {
-    int nim1,nim2,nim3,nim4,nim5;
-    cout<<"Masukkan Nim[1] : "; cin>>nim1;
-    cout<<"Masukkan Nim[2] : "; cin>>nim2;
-    cout<<"Masukkan Nim[3] : "; cin>>nim3;
-    cout<<"Masukkan Nim[4] : "; cin>>nim4;
-    cout<<"Masukkan Nim[5] : "; cin>>nim5;
-    int arr[] = {nim1,nim2,nim3,nim4,nim5};
+    int arr[] = {99,29,56,99,18,2,23,8,1,32};
     int n = sizeof(arr)/sizeof(arr[0]);
 
     bubbleSort(arr, n);
